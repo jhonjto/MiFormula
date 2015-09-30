@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:background="#EAF3FA" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#EAF3FA" >
+
+        <TextView
+            android:id="@+id/tvMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="49dp"
+            android:gravity="center"
+            android:text="@string/tvMenu"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvBienvenidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginTop="28dp"
+            android:text="@string/tvBienvenidos"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spmenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom|center|end"
+        android:orientation="vertical"
+        android:weightSum="0"
+        android:background="#EAF3FA" >
+
+        <Button
+            android:id="@+id/btnseleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="operar"
+            android:text="@string/btnseleccion"
+            android:background="@drawable/buttons"
+            style="@style/button_text" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

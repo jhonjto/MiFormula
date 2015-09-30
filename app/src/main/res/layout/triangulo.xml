@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EAF3FA" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#EAF3FA" >
+
+        <TextView
+            android:id="@+id/tvtriangulo"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/tvtriangulo"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btntriangulo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="triangulos"
+            android:text="@string/btntriangulo"
+            android:background="@drawable/buttons"
+        	style="@style/button_text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btntriangulo"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvarea"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvigual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvigual"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvmedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvmedio"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberDecimal|numberSigned" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberDecimal|numberSigned" />
+
+            <TextView
+                android:id="@+id/tvresultri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvresultri" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#EAF3FA" >
+
+        <TextView
+            android:id="@+id/tvtri2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/tvtri2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btntriangulo2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:onClick="triangulos2"
+            android:text="@string/btntriangulo2"
+            android:background="@drawable/buttons"
+        	style="@style/button_text" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btntriangulo2"
+            android:layout_alignParentStart="true"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvs"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvigual2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvigual"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et2_1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberDecimal|numberSigned" />
+
+            <TextView
+                android:id="@+id/tvsum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvsum"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et2_2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberDecimal|numberSigned" />
+
+            <TextView
+                android:id="@+id/tvsum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvsum"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et2_3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvsobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvresul2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_weight="2.05"
+                android:text="@string/tvresultri" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
