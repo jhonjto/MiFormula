@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.jjto" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/miformula"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/miformula"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AcercaDe"
+            android:parentActivityName=".MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CargarFormulas"
+            android:label="CargarFormulas"
+            android:parentActivityName=".InicioSesion" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.InicioSesion" />
+
+            <intent-filter>
+                <action android:name="com.sqlite.base.datos.CargarFormulas" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InicioSesion"
+            android:parentActivityName=".MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VerFormulas"
+            android:parentActivityName=".InicioSesion" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.InicioSesion" />
+        </activity>
+        <activity
+            android:name=".Suma"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Resta"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Multiplicacion"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Division"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Ecuaciones"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".EcuacionesSegundoGrado"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Fracciones"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Potencias"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Exponentes"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Exponentes2"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Monomios"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Monomios2"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Triangulo"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Cuadrado"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Rectangulo"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Rombo"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Trapecio"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Poligonor"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Circulo"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".ValorAbsoluto"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Arcocoseno"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Arcoseno"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Arcotangente"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Coseno"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Seno"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Conversiones"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".CrearFormulas"
+            android:parentActivityName=".InicioSesion" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.InicioSesion" />
+        </activity>
+        <activity
+            android:name=".EditarFormulas"
+            android:parentActivityName=".InicioSesion" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.InicioSesion" />
+        </activity>
+        <activity
+            android:name=".Ecuaciondelarecta"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Ecuaciondelarecta2"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Conversionpeso"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Conversionlongitud"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Conversionarea"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Conversionvolumen"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Calcularporcentaje"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Logaritmos"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Logaritmonumero"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Logaritmonatural"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Eliminarformulas"
+            android:parentActivityName=".InicioSesion" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.InicioSesion" />
+        </activity>
+        <activity
+            android:name=".NumerosNaturales"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".MaximoComunDivisor"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".MinimoComunMultiplo"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".NumerosEnteros"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+        <activity
+            android:name=".Moda"
+            android:parentActivityName=".VerFormulas" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.jjto.VerFormulas" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+    </application>
+
+</manifest>

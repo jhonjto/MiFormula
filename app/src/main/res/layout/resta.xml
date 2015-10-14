@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="460dp"
+    android:orientation="vertical"
+    android:background="#EAF3FA" >
+
+    <TextView
+        android:id="@+id/tvresta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="left"
+        android:text="@string/tvresta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etresta1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/tvres"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etresta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etresta2"
+        android:layout_below="@+id/tvresta"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/etresta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvres"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <Button
+        android:id="@+id/btncalcularresta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="calcularresta"
+        android:text="@string/btncalcularresta"
+        android:background="@drawable/buttons"
+        style="@style/button_text" />
+
+    <TextView
+        android:id="@+id/tvresultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etresta2"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/tvres"
+        android:text="@string/tvresultado"
+        android:textSize="20sp" />
+
+</RelativeLayout>

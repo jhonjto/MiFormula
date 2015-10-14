@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:orientation="vertical"
+    android:background="#EAF3FA" >
+
+    <TextView
+        android:id="@+id/tvpotencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="start"
+        android:text="@string/tvpotencias"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/etpotenciab"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/b"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/tvpotencias"
+        android:textSize="30sp">
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpotenciaa"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/a"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:layout_below="@+id/etpotenciab"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"><requestFocus /></EditText>
+
+    <Button
+        android:id="@+id/btncalcularpotencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="calcularpotencia"
+        android:text="@string/btncalcularpotencia"
+        android:background="@drawable/buttons"
+        	style="@style/button_text"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvresultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpotenciaa"
+        android:layout_toStartOf="@+id/etpotenciaa"
+        android:text="@string/tvresultado"
+        android:textSize="30sp" />
+
+</RelativeLayout>

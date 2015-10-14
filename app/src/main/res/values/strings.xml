@@ -1,0 +1,314 @@
+<resources>
+    <string name="app_name">MiFormula</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tvSaludo">Mi Formula</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btnAcercade">Acerca de</string>
+    <string name="todo">TODO</string>
+    <string name="logo2">logo2</string>
+    <string name="tvNombres">Jhon Jarol</string>
+    <string name="tvApellidos">Tabares Orozco</string>
+    <string name="tvWeb">www.siont.com.co</string>
+    <string name="btnVolver">Volver</string>
+    <string name="btnSalir">Salir</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="tvMenu">Selección Menu</string>
+    <string name="spmenu">Selección</string>
+    <string name="btnseleccion">Ir</string>
+    <string name="tvBienvenidos">Bienvenidos</string>
+    <string name="tvVerFormulas">Ver Formulas</string>
+    <string name="btnVolvermenu">Volver</string>
+    <string name="tvnombre">Buscar :</string>
+    <string name="btncrearformula">Guardar</string>
+    <string name="btncargarformula">Ver</string>
+    <string name="btneditarformula">Editar</string>
+    <string name="btnbuscar">Buscar</string>
+    <string name="btneliminarformula">Eliminar</string>
+ 	<string name="tvsuma">
+a + a = b
+\n
+a + b = c</string>
+    <string name="tvsum">+</string>
+    <string name="tvresultado">Resultado : </string>
+    <string name="btncalcularsuma">Calcular</string>
+ 	 	<string name="tvresta">
+a - a = 0
+\n
+a - b = c</string>
+    <string name="tvres">-</string>
+    <string name="btncalcularresta">Calcular</string>
+    <string name="todo1">TODO1</string>
+    <string name="btnVolverseleccion">Volver</string>
+ 	<string name="tvmultiplicacion">
+a * a = b
+\n
+a * b = c</string>
+    <string name="tvmul">*</string>
+    <string name="btncalcularmultiplicacion">Calcular</string>
+ 	<string name="tvdivision">
+a ÷ a = b
+\n
+a ÷ b = c</string>
+    <string name="tvdiv">÷</string>
+    <string name="btncalculardivision">Calcular</string>
+<string name="tvecuacion">Forma\n
+    y = mx + b
+    \n
+</string>
+    <string name="tvigual">=</string>
+    <string name="btncalcularecuacionsimple">Calcular</string>
+    <string name="y">y</string>
+    <string name="_">°</string>
+    <string name="x">x</string>
+    <string name="m">m</string>
+    <string name="b">b</string>
+<string name="lo_que_se">Este es un ejemplo solamente para
+que sirva de guia a los usuarios, no se pretende que la aplicacion
+resuelva problemas complejos.\n
+Si desea crear formulas mas complejas dirijase al menu crear formulas para crear formulas.</string>
+<string name="tvecuacionsegundogrado">Forma\n
+    ax²+bx+c=0
+    \n
+</string>
+    <string name="ax_">ax²</string>
+    <string name="bx">bx</string>
+    <string name="c">c</string>
+    <string name="btncalcularecuacionsegundogrado">Calcular</string>
+    <string name="_0">0</string>
+<string name="tvfracciones">Fracciones\n
+    a/b=c/d
+    \n
+</string>
+    <string name="a">a</string>
+    <string name="d">d</string>
+    <string name="sobre">/</string>
+    <string name="btnsumar">Suma</string>
+    <string name="btnrestar">Resta</string>
+    <string name="btndividir">Divide</string>
+    <string name="btnmultiplicar">Multiplica</string>
+<string name="tvpotencias">Potencias\n
+    a¹ ² ³ etc....
+    \n
+</string>
+    <string name="btncalcularpotencia">Calcular</string>
+<string name="tvley1">Ley\n
+    x^m * x^n = x^m+n
+    \n
+</string>
+    <string name="tvresul1"></string>
+    <string name="btnley1">Calcular</string>
+<string name="tvley2">Ley\n
+    x^m / x^n = x^m-n
+    \n
+</string>
+    <string name="btnley2">Calcular</string>
+    <string name="tvresul2_1"></string>
+<string name="tvley3">Ley\n
+    (x^m)^n = x^m*n
+    \n
+</string>
+    <string name="btnley3">Calcular</string>
+    <string name="tva">(</string>
+    <string name="tvb">)</string>
+    <string name="tvresul3_1"></string>
+<string name="tvley4">Ley\n
+    (xy)^n = x^n y^n
+    \n
+</string>
+    <string name="btnley4">Calcular</string>
+    <string name="tvresul4_1"></string>
+<string name="tvley5">Ley\n
+    (x/y)^n = x^n/y^n
+    \n
+</string>
+    <string name="btnley5">Calcular</string>
+    <string name="tvresul5_1"></string>
+<string name="tvley6">Ley\n
+    x-^n = 1/x^n
+    \n
+</string>
+    <string name="tvresul6_1"></string>
+    <string name="btnley6">Calcular</string>
+<string name="tvsumamonomio">Suma\n
+    ax^b y^d + cx^b y^d = (a+c)x^b y^d
+    \n
+</string>
+    <string name="tvresulmonomiosuma"></string>
+    <string name="tvresulmonomioresta"></string>
+    <string name="btncalcularmonomiosuma">Calcular</string>
+<string name="tvrestamonomio">Resta\n
+    ax^b y^d - cx^b y^d = (a-c)x^b y^d
+    \n
+</string>
+    <string name="btncalcularrestamonomio">Calcular</string>
+    <string name="z">z</string>
+<string name="tvproductomonomio">Producto\n
+    ax^b y^d z^c * cx^b y^d z^c= 1x^b y^d z^c
+    \n
+</string>
+<string name="tvcocientemonomio">Cociente\n
+    ax^b y^d z^c ÷ cx^b y^d z^c= 1x^b y^d z^c
+    \n
+</string>
+    <string name="tvresulmonomiomul"></string>
+    <string name="tvresulmonomiodiv"></string>
+<string name="tvtriangulo">Triangulo
+    Si se conoce base y altura entonces Area=b*h/2
+    \n
+</string>
+    <string name="btntriangulo">Calcular</string>
+    <string name="tvarea">Area</string>
+    <string name="tvmedio">½</string>
+    <string name="tvresultri"></string>
+<string name="tvtri2">Triangulo
+    Si se conoce los 3 lados s=a+b+c/2
+    Area=┌s(s-a)(s-b)(s-c)
+</string>
+    <string name="btntriangulo2">Calcular</string>
+    <string name="tvs">s</string>
+    <string name="tv2">2</string>
+<string name="tvcuadrado">Cuadrado\n
+    Area = lado * lado
+    Area = l²
+</string>
+    <string name="btncalcularcuadrado">Calcular</string>
+<string name="tvrectangulo">Rectangulo\n
+    Area = base * altura\n
+    Area = b*h
+</string>
+    <string name="btncalcularrectangulo">Calcular</string>
+<string name="tvrombo">Rombo\n
+    Area = D * d / 2\n
+</string>
+    <string name="btncalcularrombo">Calcular</string>
+<string name="tvtrapecio">Trapecio\n
+    Area = (B + b)*h /2\n
+</string>
+    <string name="tvh">h</string>
+<string name="tvpoligonoregular">Poligono Regular\n
+    Area = P*a /2\n
+</string>
+    <string name="btncalcularpoligonor">Calcular</string>
+<string name="tvareacirculo">Circulo\n
+    Area = π * r²
+    </string>
+    <string name="tvpi">π</string>
+    <string name="btncalcularpi">Calcular</string>
+<string name="tvvalorabsoluto">Valor Absoluto\n
+    |+a| = |a| = a\n
+    |-b| = |b| = b
+    </string>
+    <string name="btnvalorabsoluto">Calcular</string>
+    <string name="tvdiagonal">|</string>
+<string name="tvarcocoseno">Arcocoseno\n
+    ƒ(cos(x))=x\n
+    </string>
+    <string name="btnarcocoseno">Calcular</string>
+<string name="tvarcoseno">Arcoseno\n
+    ƒ(sin(x))=x\n
+    </string>
+    <string name="btnarcoseno">Calcular</string>
+<string name="tvarcotangente">Arcotangente\n
+    ƒ(tan(x))=x\n
+    </string>
+    <string name="btnarcotangente">Calcular x</string>
+    <string name="btnarcotangentexy">Calcuar x y</string>
+<string name="tvcoseno">Coseno\n
+    cos(x)\n
+    </string>
+    <string name="btncoseno">Calcular</string>
+<string name="tvseno">Seno\n
+    sin(x)\n
+    </string>
+    <string name="btnseno">Calcular</string>
+<string name="tvconversiones">Conversiones\n
+    Grados a Radianes\n
+    Radianes a Grados
+    </string>
+    <string name="btngrados">Grados a Radianes</string>
+    <string name="btnradianes">Radianes a Grados</string>
+<string name="tvecuacionpg">Ecuacion primer grado\n
+	Ax+b = Cx+d
+</string>
+    <string name="adex">Ax</string>
+    <string name="cdex">Cx</string>
+    <string name="btncalcularecuacionrecta">Calcular</string>
+<string name="tvpendiente">Pendiente\n
+	m = Y2 - Y1/X2 - X1
+</string>
+    <string name="Ya2">Y2</string>
+    <string name="Ya1">Y1</string>
+    <string name="Xa2">X2</string>
+    <string name="Xa1">X1</string>
+    <string name="btncalcularpendiente">Calcular</string>
+<string name="tvconversionespeso">Peso\n
+	Kilogramos a libras\n
+	Libras a Kilogramos
+</string>
+    <string name="btnpesos1">Kilogramos a libras</string>
+    <string name="btnpesos2">Libras a Kilogramos</string>
+<string name="tvconversionlongitud">Longitud\n
+	Kilometros a metros\n
+	Metros a kilometros
+</string>
+    <string name="btnlong1">Kilometros a metros</string>
+    <string name="btnlong2">Metros a kilometros</string>
+<string name="tvconversionarea">Area\n
+	Hectareas a acres\n
+	Acres a Hectareas
+</string>
+    <string name="btnarea1">Hectareas a acres</string>
+    <string name="btnarea2">Acres a hectareas</string>
+<string name="tvconversionvolumen">Volumen\n
+	Litros a mililitros\n
+	Mililitros a Litros
+</string>
+    <string name="btnvolumen1">Litros a mililitros</string>
+    <string name="btnvolumen2">Mililitros a litros</string>
+<string name="tvporcentaje">Porcentajes\n
+	A * B / C
+</string>
+    <string name="porciento">%</string>
+    <string name="btncalcularporcentaje">Calcular</string>
+<string name="tvlogaritmos">Logaritmos\n
+	LogA
+		        b
+</string>
+    <string name="btnlogaritmo">Calcular</string>
+    <string name="logaritmo">Log</string>
+<string name="tvlogaritmonum">Logaritmo un numero\n
+</string>
+<string name="tvlogaritmon">Logaritmo natural\n
+</string>
+    <string name="btnlogaritmonum">Calcular</string>
+    <string name="logaritmonatural">Ln</string>
+    <string name="btnlogaritmon">Calcular</string>
+    <string name="infocrear">Escriba el nombre de la formula</string>
+    <string name="infocontenido">Escriba el contenido de la formula en este espacio</string>
+    <string name="numbsc">Numero de registro</string>
+    <string name="contform">En este espacio se carga el contenido de la formula</string>
+    <string name="numerosnaturales">Numeros Naturales</string>
+    <string name="numerosnat">N = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...;}</string>
+    <string name="numordinal">1°, 2°, 3°, 4°, 5°, ...;</string>
+    <string name="numordinaltext">Numeros Ordinales</string>
+    <string name="representacionnaturales">Representación</string>
+    <string name="representacionnaturales2">0 1 2 3 4 5 6 7 8 9 ...;</string>
+    <string name="mcm">Maximo Común Divisor</string>
+    <string name="num1">Numero 1 : </string>
+    <string name="num2">Numero 2 : </string>
+    <string name="resultado">Resultado :</string>
+    <string name="btncalcular">Calcular</string>
+    <string name="mcd">Minimo Común Múltiplo</string>
+    <string name="numerosenteros">Numeros Enteros</string>
+    <string name="numenteros">{Z}  = {..., −3, −2, −1, 0, +1, +2, +3, ...}</string>
+<string name="moda">Moda\n
+es el valor que tiene mayor frecuencia en una distribución de datos</string>
+    <string name="datos">Ingrese numero de datos :</string>
+    <string name="datos2">Ingrese los datos :</string>
+    <string name="btningresar">Ingresar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_divi">DIVI Empresas</string>
+    <string name="action_compartelo">Compartelo!</string>
+</resources>

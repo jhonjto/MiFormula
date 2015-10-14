@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:orientation="vertical"
+    android:background="#EAF3FA" >
+
+    <Button
+        android:id="@+id/btnlogaritmo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="logaritmo"
+        android:text="@string/btnlogaritmo"
+        android:background="@drawable/buttons"
+        	style="@style/button_text" />
+
+    <TextView
+        android:id="@+id/tvlogaritmos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        android:text="@string/tvlogaritmos"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etpotenciaa"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvlogaritmos"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/a"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <TextView
+        android:id="@+id/tvresultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpotenciaa"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="46dp"
+        android:layout_toStartOf="@+id/etpotenciaa"
+        android:text="@string/tvresultado"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etpotenciab"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpotenciaa"
+        android:layout_toEndOf="@+id/etpotenciaa"
+        android:ems="10"
+        android:hint="@string/b"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/etpotenciaa"
+        android:text="@string/logaritmo"
+        android:textSize="20sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/jhon/AndroidStudioProjects/MiFormula/app/src/main/res/layout/logaritmos.xml -->

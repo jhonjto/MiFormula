@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:orientation="vertical"
+    android:background="#EAF3FA" >
+
+    <TextView
+        android:id="@+id/tvcuadrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/tvcuadrado"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btncalcularcuadrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="cuadrado"
+        android:text="@string/btncalcularcuadrado"
+        android:background="@drawable/buttons"
+        	style="@style/button_text" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvarea"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvigual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvigual"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/etareacuadrado1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvmul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvmul"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/etareacuadrado2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/tvresultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="55dp"
+            android:text="@string/tvresultado"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

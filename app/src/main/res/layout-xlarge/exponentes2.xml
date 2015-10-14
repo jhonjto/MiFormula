@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAF3FA" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#EAF3FA" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley4"
+            android:layout_toStartOf="@+id/etley4_1"
+            android:text="@string/tva"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley4"
+            android:layout_toEndOf="@+id/etley4_2"
+            android:text="@string/tvb"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/tvley4"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/tvley4"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvigual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley4"
+            android:layout_toEndOf="@+id/etley4_3"
+            android:text="@string/tvigual"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tvresul4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley4"
+            android:layout_toEndOf="@+id/tvigual"
+            android:text="@string/tvresul1" />
+
+        <Button
+            android:id="@+id/btnley4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:onClick="ley4"
+            android:text="@string/btnley4"
+            android:background="@drawable/buttons"
+        	style="@style/button_text"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/etley4_2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etley4_1"
+            android:layout_alignBottom="@+id/etley4_1"
+            android:layout_alignStart="@+id/tvley4"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" >
+
+            
+        </EditText>
+
+        <EditText
+            android:id="@+id/etley4_3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvigual"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/etley4_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley4"
+            android:layout_toStartOf="@+id/etley4_2"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" ><requestFocus /></EditText>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#EAF3FA" >
+
+        <TextView
+            android:id="@+id/tvley5"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/tvley5"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnley5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:onClick="ley5"
+            android:text="@string/btnley5"
+            android:background="@drawable/buttons"
+        	style="@style/button_text"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tvresul5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvigual2_1"
+            android:layout_toEndOf="@+id/tvigual2_1"
+            android:text="@string/tvresul1" />
+
+        <TextView
+            android:id="@+id/tvigual2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley5"
+            android:layout_toEndOf="@+id/etley5_3"
+            android:text="@string/tvigual"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/etley5_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/etley5_2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="41dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/etley5_2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley5"
+            android:layout_alignStart="@+id/etley5_1"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley5"
+            android:layout_toStartOf="@+id/etley5_2"
+            android:text="@string/tva"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnley5"
+            android:layout_toEndOf="@+id/etley5_1"
+            android:text="@string/tvb"
+            android:textSize="80sp" />
+
+        <EditText
+            android:id="@+id/etley5_3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvley5"
+            android:layout_toEndOf="@+id/TextView04"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#EAF3FA" >
+
+        <Button
+            android:id="@+id/btnley6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="ley6"
+            android:text="@string/btnley6"
+            android:background="@drawable/buttons"
+        	style="@style/button_text"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tvley6"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/tvley6"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/etley6_2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvley6"
+            android:layout_below="@+id/tvley6"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/etley6_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:layout_below="@+id/etley6_2"
+            android:layout_toStartOf="@+id/etley6_2" />
+
+        <TextView
+            android:id="@+id/tvigual3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvigual"
+            android:textSize="50sp"
+            android:layout_alignBottom="@+id/etley6_1"
+            android:layout_toEndOf="@+id/etley6_2" />
+
+        <TextView
+            android:id="@+id/tvresul6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvresul6_1"
+            android:textSize="50sp"
+            android:layout_alignBottom="@+id/etley6_1"
+            android:layout_toEndOf="@+id/tvigual3_1" />
+
+    </RelativeLayout>
+
+</LinearLayout>

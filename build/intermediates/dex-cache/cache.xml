@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jhon\AndroidStudioProjects\MiFormula\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="C:\Users\jhon\AndroidStudioProjects\MiFormula\app\build\intermediates\pre-dexed\release\classes-104f2b9bdbd647742c67449e3c259a8e3025dc17.jar" />
+    </item>
+
+</items>

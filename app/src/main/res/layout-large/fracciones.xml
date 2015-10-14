@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_gravity="center|top"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#EAF3FA" >
+
+        <TextView
+            android:id="@+id/tvfracciones"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/tvfracciones"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvresultado"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tvfracciones"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/etecsimple1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="true"
+                android:hint="@string/a"
+                android:inputType="number|numberDecimal|numberSigned"
+                android:textSize="30sp">
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/tvsum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sobre"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etecsimple2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="@string/b"
+                android:inputType="number|numberDecimal|numberSigned"
+                android:textSize="30sp">
+            </EditText>
+
+            <TextView
+                android:id="@+id/tvigual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvigual"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etecsimple3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/c"
+                android:inputType="number|numberDecimal|numberSigned"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sobre"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etecsimple4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/d"
+                android:inputType="number|numberDecimal|numberSigned"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnsumar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.53"
+                android:gravity="bottom|center"
+                android:onClick="sumar"
+                android:text="@string/btnsumar"
+                tools:ignore="ButtonStyle"
+                android:background="@drawable/buttons"
+        	style="@style/button_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btndividir"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.53"
+                android:gravity="bottom|center"
+                android:onClick="dividir"
+                android:text="@string/btndividir"
+                tools:ignore="ButtonStyle"
+                android:background="@drawable/buttons"
+        	style="@style/button_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnmultiplicar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.53"
+                android:gravity="bottom|center"
+                android:onClick="multiplicar"
+                android:text="@string/btnmultiplicar"
+                tools:ignore="ButtonStyle"
+                android:background="@drawable/buttons"
+        	style="@style/button_text"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btnrestar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.37"
+                android:gravity="bottom|center"
+                android:onClick="restar"
+                android:text="@string/btnrestar"
+                tools:ignore="ButtonStyle"
+                android:background="@drawable/buttons"
+        	style="@style/button_text"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvresultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_alignParentStart="true"
+            android:text="@string/tvresultado"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:weightSum="0"
+        android:background="#EAF3FA" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.86"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textMultiLine"
+            android:text="@string/lo_que_se"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
