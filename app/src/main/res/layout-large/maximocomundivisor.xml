@@ -11,7 +11,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="@string/mcm"
+<<<<<<< HEAD
         android:textSize="30sp" />
+=======
+        android:textSize="20sp" />
+>>>>>>> 573b66934693332616a093fdf969fd2cf4dc91a2
 
     <TextView
         android:id="@+id/textView2"
@@ -22,7 +26,11 @@
         android:layout_marginTop="60dp"
         android:text="@string/num1"
         android:textAppearance="?android:attr/textAppearanceMedium"
+<<<<<<< HEAD
         android:textSize="30sp" />
+=======
+        android:textSize="20sp" />
+>>>>>>> 573b66934693332616a093fdf969fd2cf4dc91a2
 
     <TextView
         android:id="@+id/textView3"
@@ -33,7 +41,11 @@
         android:layout_marginTop="28dp"
         android:text="@string/num2"
         android:textAppearance="?android:attr/textAppearanceMedium"
+<<<<<<< HEAD
         android:textSize="30sp" />
+=======
+        android:textSize="20sp" />
+>>>>>>> 573b66934693332616a093fdf969fd2cf4dc91a2
 
     <EditText
         android:id="@+id/num1"
@@ -67,7 +79,11 @@
         android:contentDescription="@string/resultado"
         android:gravity="center"
         android:text="@string/resultado"
+<<<<<<< HEAD
         android:textSize="30sp" />
+=======
+        android:textSize="20sp" />
+>>>>>>> 573b66934693332616a093fdf969fd2cf4dc91a2
 
     <Button
         android:id="@+id/button1"
@@ -79,7 +95,11 @@
         android:text="@string/btncalcular"
         android:onClick="mcd"
         android:background="@drawable/buttons"
+<<<<<<< HEAD
         	style="@style/button_text"
         android:textSize="40sp" />
+=======
+        	style="@style/button_text" />
+>>>>>>> 573b66934693332616a093fdf969fd2cf4dc91a2
 
 </RelativeLayout>
